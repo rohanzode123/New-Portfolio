@@ -140,15 +140,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
+      Stack: 'Django', //Insert stack or technology you have experience in
       progressPercentage: '90%', //Insert relative proficiency in percentage
     },
     {
-      Stack: 'Backend',
+      Stack: 'Python',
       progressPercentage: '70%',
     },
     {
-      Stack: 'Programming',
+      Stack: 'Frontent Development',
       progressPercentage: '60%',
     },
   ],
@@ -333,19 +333,6 @@ const talkSection = {
   display: true, // Set false to hide this section, defaults to true
 };
 
-// Podcast Section
-
-const podcastSection = {
-  title: emoji('Podcast 🎙️'),
-  subtitle: 'I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY',
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo',
-  ],
-  display: true, // Set false to hide this section, defaults to true
-};
-
 // Resume Section
 const resumeSection = {
   title: 'Resume',
@@ -359,8 +346,8 @@ const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle:
     'Discuss a project or just want to say hi? My Inbox is open for all.',
-  number: '+92-0000000000',
-  email_address: 'saadpasta70@gmail.com',
+  number: '+91 9370569860',
+  email_address: 'rohanzode40@gmail.com',
 };
 
 // Twitter Section
