@@ -202,19 +202,13 @@ const openSource = {
 
 const bigProjects = {
   title: 'Big Projects',
-  subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
+  subtitle: 'SOME PROJECT THAT I HELPED TO CREATE THEIR TECH',
   projects: [
     {
-      image: require('./assets/images/saayaHealthLogo.webp'),
+      image: require('./assets/images/ecommerce.jpg'),
       projectName: 'Saayahealth',
-      projectDesc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      footerLink: [
-        {
-          name: 'Visit Website',
-          url: 'http://saayahealth.com/',
-        },
-        //  you can add extra buttons here.
-      ],
+      projectDesc:
+        'Developed a dynamic web-based application using Python, Django, HTML, CSS, and Javascript to create a comprehensive shopping platform for the company products.',
     },
     {
       image: require('./assets/images/nextuLogo.webp'),
