@@ -165,18 +165,21 @@ const workExperiences = {
       company: 'Sumanela Technology Ventures Pvt. Ltd.',
       companylogo: require('./assets/images/sumanel.png'),
       date: 'Dec 2024 – Present',
+      desc: 'Working as a Backend Developer, I develop and maintain RESTful APIs using Django and Python, manage PostgreSQL databases, and handle deployment and scaling on AWS instances.',
     },
     {
       role: 'Web Developer',
       company: 'Octarange Technologies Pvt. Ltd.',
       companylogo: require('./assets/images/octa.png'),
       date: 'Jan 2024 – Jun 2024',
+      desc: 'As a Web Developer, I build and maintain interactive front-end interfaces and dynamic websites. I work with modern frameworks and tools to ensure responsive design, smooth user experience, and seamless integration with backend services.',
     },
     {
       role: 'Cloud Intern',
       company: 'Cravita Technologies Pvt. Ltd.',
       companylogo: require('./assets/images/images.jpeg'),
       date: 'March 2023 – Aug 2023',
+      desc: 'As a Cloud Intern, I gained hands-on experience in cloud computing, working with AWS services to deploy and manage applications. I learned about cloud architecture, security, and best practices for scalable and reliable systems.',
     },
   ],
 };
