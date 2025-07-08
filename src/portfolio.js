@@ -128,7 +128,13 @@ const educationInfo = {
     {
       schoolName: 'Saint Paul High School Nagpur',
       logo: require('./assets/images/saintpaul.jpeg'),
-      subHeader: 'Bachelor of Science in Computer Science',
+      subHeader: 'Higher Secondary Certificate',
+      duration: 'Feb 2017 - Aug 2018',
+    },
+    {
+      schoolName: 'Devyanee International School Sindewahi',
+      logo: require('./assets/images/devyani_logo.png'),
+      subHeader: 'Secondary School Certificate',
       duration: 'Feb 2017 - Aug 2018',
     },
   ],
