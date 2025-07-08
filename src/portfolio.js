@@ -244,7 +244,7 @@ const achievementSection = {
     {
       title: 'AWS Certified Solutions Architect Associate',
       subtitle:
-        'Achieved AWS Certified Solutions Architect – Associate certification, demonstrating my ability to design and deploy scalable, secure, and cost-efficient applications on AWS.',
+        'Achieved AWS Certified Solutions Architect  Associate certification, demonstrating my ability to design and deploy scalable, secure, and cost-efficient applications on AWS.',
       image: require('./assets/images/solutionarchitect.png'),
       imageAlt: 'AWS Certified Solutions Architect Associate Logo',
       footerLink: [
@@ -256,15 +256,15 @@ const achievementSection = {
     },
 
     {
-      title: 'PWA Web App Developer',
-      subtitle: 'Completed Certifcation from SMIT for PWA Web App Development',
-      image: require('./assets/images/pwaLogo.webp'),
-      imageAlt: 'PWA Logo',
+      title: 'AWS Academy Graduate - AWS Academy Cloud Architecting',
+      subtitle:
+        'Completed AWS Academy Cloud Architecting course, gaining hands-on experience in designing cloud solutions using core AWS services and architectural best practices.',
+      image: require('./assets/images/awsgradutate.png'),
+      imageAlt: 'AWS Academy Graduate - AWS Academy Cloud Architecting Logo',
       footerLink: [
-        { name: 'Certification', url: '' },
         {
-          name: 'Final Project',
-          url: 'https://pakistan-olx-1.firebaseapp.com/',
+          name: 'AWS Academy Graduate - AWS Academy Cloud Architecting',
+          url: 'https://www.credly.com/badges/79a9a568-f7ff-4507-b820-62b671bd5d0b/public_url',
         },
       ],
     },
@@ -293,7 +293,7 @@ const blogSection = {
         'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -312,7 +312,7 @@ const talkSection = {
       event_url: 'https://www.facebook.com/events/2339906106275053/',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -325,7 +325,7 @@ const podcastSection = {
   podcast: [
     'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo',
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Resume Section
