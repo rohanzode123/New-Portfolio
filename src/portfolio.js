@@ -206,20 +206,15 @@ const bigProjects = {
   projects: [
     {
       image: require('./assets/images/ecommerce.jpg'),
-      projectName: 'Saayahealth',
+      projectName: 'E-COMMERCE WEB APPLICATION',
       projectDesc:
         'Developed a dynamic web-based application using Python, Django, HTML, CSS, and Javascript to create a comprehensive shopping platform for the company products.',
     },
     {
-      image: require('./assets/images/nextuLogo.webp'),
-      projectName: 'Nextu',
-      projectDesc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      footerLink: [
-        {
-          name: 'Visit Website',
-          url: 'http://nextu.se/',
-        },
-      ],
+      image: require('./assets/images/eproductify.png'),
+      projectName: 'EPRODUCTIFY',
+      projectDesc:
+        'Eproductify is a web app for selling digital brochures, built using Python, HTML, CSS, and JavaScript. It features a responsive UI, brochure listings, and a secure billing system to handle purchases.',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
