@@ -231,7 +231,7 @@ const achievementSection = {
     {
       title: 'AWS Certified Cloud Practitioner',
       subtitle:
-        'First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.',
+        'Achieved AWS Certified Cloud Practitioner credential, validating my foundational knowledge of AWS services, cloud concepts, security, and billing practices.',
       image: require('./assets/images/cloudpractioner.png'),
       imageAlt: 'AWS Certified Cloud Practitioner Logo',
       footerLink: [
@@ -242,15 +242,15 @@ const achievementSection = {
       ],
     },
     {
-      title: 'Google Assistant Action',
+      title: 'AWS Certified Solutions Architect Associate',
       subtitle:
-        'Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.',
-      image: require('./assets/images/googleAssistantLogo.webp'),
-      imageAlt: 'Google Assistant Action Logo',
+        'Achieved AWS Certified Solutions Architect – Associate certification, demonstrating my ability to design and deploy scalable, secure, and cost-efficient applications on AWS.',
+      image: require('./assets/images/solutionarchitect.png'),
+      imageAlt: 'AWS Certified Solutions Architect Associate Logo',
       footerLink: [
         {
-          name: 'View Google Assistant Action',
-          url: 'https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en',
+          name: 'AWS Certified Solutions Architect Associate',
+          url: 'https://www.credly.com/badges/6fbba942-e0b0-4a92-9a2b-af52bfbb6581/public_url',
         },
       ],
     },
