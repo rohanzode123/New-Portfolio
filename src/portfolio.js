@@ -211,7 +211,7 @@ const bigProjects = {
         'Developed a dynamic web-based application using Python, Django, HTML, CSS, and Javascript to create a comprehensive shopping platform for the company products.',
     },
     {
-      image: require('./assets/images/eproductify.png'),
+      image: require('./assets/images/eproductifyy.png'),
       projectName: 'EPRODUCTIFY',
       projectDesc:
         'Eproductify is a web app for selling digital brochures, built using Python, HTML, CSS, and JavaScript. It features a responsive UI, brochure listings, and a secure billing system to handle purchases.',
@@ -225,28 +225,19 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji('Achievements And Certifications 🏆 '),
-  subtitle:
-    'Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !',
+  subtitle: 'Achievements, Certifications,that I have done !',
 
   achievementsCards: [
     {
-      title: 'Google Code-In Finalist',
+      title: 'AWS Certified Cloud Practitioner',
       subtitle:
         'First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.',
-      image: require('./assets/images/codeInLogo.webp'),
-      imageAlt: 'Google Code-In Logo',
+      image: require('./assets/images/cloudpractioner.png'),
+      imageAlt: 'AWS Certified Cloud Practitioner Logo',
       footerLink: [
         {
-          name: 'Certification',
-          url: 'https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing',
-        },
-        {
-          name: 'Award Letter',
-          url: 'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
-        },
-        {
-          name: 'Google Code-in Blog',
-          url: 'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
+          name: 'AWS Certified Cloud Practitioner',
+          url: 'https://www.credly.com/badges/3e102b55-b195-4083-9117-e0a0e967753e/public_url',
         },
       ],
     },
