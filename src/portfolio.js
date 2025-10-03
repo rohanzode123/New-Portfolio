@@ -277,8 +277,8 @@ const achievementSection = {
 
 const contactInfo = {
   title: emoji('Contact Me ☎️'),
-  number: '+91 9370569860',
-  email_address: 'rohanzode40@gmail.com',
+  number: '📞 +91 9370569860',
+  email_address: '📬 rohanzode40@gmail.com',
 };
 
 const blogSection = {
