@@ -340,4 +340,5 @@ export {
   podcastSection,
   talkSection,
   resumeSection,
+  twitterDetails,
 };
