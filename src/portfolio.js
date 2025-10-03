@@ -283,6 +283,20 @@ const contactInfo = {
   email_address: 'rohanzode40@gmail.com',
 };
 
+const blogSection = {
+  title: "My Blog",
+  posts: [
+    { title: "Post 1", link: "https://..." },
+    { title: "Post 2", link: "https://..." },
+  ],
+};
+
+const podcastSection = {
+  title: "My Podcast",
+  episodes: [],
+};
+
+
 // Twitter Section
 
 const twitterDetails = {
