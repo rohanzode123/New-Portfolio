@@ -314,6 +314,14 @@ const twitterDetails = {
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
+
+const resumeSection = {
+  title: "My Resume",
+  link: "https://link-to-your-resume.pdf", // or leave empty for now
+};
+
+
+
 export {
   illustration,
   greeting,
@@ -331,4 +339,5 @@ export {
   blogSection, 
   podcastSection,
   talkSection,
+  resumeSection,
 };
