@@ -249,7 +249,7 @@ const achievementSection = {
       imageAlt: 'AWS Certified Solutions Architect Associate Logo',
       footerLink: [
         {
-          name: 'AWS Certified Solutions Architect Associate',
+          name: 'AWS Certified Solution Architect Associate',
           url: 'https://www.credly.com/badges/6fbba942-e0b0-4a92-9a2b-af52bfbb6581/public_url',
         },
       ],
