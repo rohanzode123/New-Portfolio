@@ -242,7 +242,7 @@ const achievementSection = {
       ],
     },
     {
-      title: 'AWS Certified Solutions Architect Associate',
+      title: 'AWS Certified Solution Architect Associate',
       subtitle:
         'Achieved AWS Certified Solutions Architect  Associate certification, demonstrating my ability to design and deploy scalable, secure, and cost-efficient applications on AWS.',
       image: require('./assets/images/solutionarchitect.png'),
