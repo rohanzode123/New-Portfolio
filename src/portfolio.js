@@ -304,7 +304,6 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  podcastSection,
   contactInfo,
   isHireable,
 };
