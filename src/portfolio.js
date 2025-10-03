@@ -306,4 +306,6 @@ export {
   achievementSection,
   contactInfo,
   isHireable,
+  blogSection, 
+  podcastSection,
 };
