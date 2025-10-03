@@ -277,8 +277,6 @@ const achievementSection = {
 
 const contactInfo = {
   title: emoji('Contact Me ☎️'),
-  subtitle:
-    'Discuss a project or just want to say hi? My Inbox is open for all.',
   number: '+91 9370569860',
   email_address: 'rohanzode40@gmail.com',
 };
