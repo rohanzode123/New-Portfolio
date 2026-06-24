@@ -195,7 +195,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -203,8 +203,6 @@ const openSource = {
 const bigProjects = {
   title: 'Big Projects',
   subtitle: 'SOME PROJECT THAT I HELPED TO CREATE THEIR TECH',
-  showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
-  display: true, // Set false to hide this section, defaults to true
   projects: [
     {
       image: require('./assets/images/ecommerce.jpg'),
@@ -219,7 +217,7 @@ const bigProjects = {
         'Eproductify is a web app for selling digital brochures, built using Python, HTML, CSS, and JavaScript. It features a responsive UI, brochure listings, and a secure billing system to handle purchases.',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
 };
 
 // Achievement Section
