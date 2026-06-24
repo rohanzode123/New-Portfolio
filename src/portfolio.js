@@ -315,7 +315,7 @@ const isHireable = false; // Set false if you are not looking for a job. Also is
 
 const resumeSection = {
   title: "My Resume",
-  link: "https://link-to-your-resume.pdf", // or leave empty for now
+  link: "https://drive.google.com/file/d/1hZGTKvI6quyQdxrL-2auaR13-SmQv7A9/view?usp=drive_link", // or leave empty for now
 };
 
 
