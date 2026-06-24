@@ -203,6 +203,8 @@ const openSource = {
 const bigProjects = {
   title: 'Big Projects',
   subtitle: 'SOME PROJECT THAT I HELPED TO CREATE THEIR TECH',
+  showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   projects: [
     {
       image: require('./assets/images/ecommerce.jpg'),
