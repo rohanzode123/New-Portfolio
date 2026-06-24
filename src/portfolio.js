@@ -260,10 +260,10 @@ const achievementSection = {
       subtitle:
         'Completed AWS Academy Cloud Architecting course, gaining hands-on experience in designing cloud solutions using core AWS services and architectural best practices.',
       image: require('./assets/images/awsgradutate.png'),
-      imageAlt: 'AWS Academy Cloud Architecting Logo',
+      imageAlt: 'AWS Academy Graduate - AWS Academy Cloud Architecting Logo',
       footerLink: [
         {
-          name: 'AWS Academy Graduate - AWS Academy Cloud Architecting',
+          name: 'AWS Academy Cloud Architecting',
           url: 'https://www.credly.com/badges/79a9a568-f7ff-4507-b820-62b671bd5d0b/public_url',
         },
       ],
