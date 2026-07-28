@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     'A passionate Backend Developer 🚀 specializing in Python and Django REST Framework, with experience in building custom APIs and backend logic for scalable web applications.'
   ),
-  resumeLink:
-    'https://drive.google.com/file/d/1mQwi-U22ifV0-79sGu-XwBvTEapbsusS/view?usp=sharing', // Set to empty to hide the button
+  resumeLink:'https://drive.google.com/file/d/1mQwi-U22ifV0-79sGu-XwBvTEapbsusS/view?usp=sharing', // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
