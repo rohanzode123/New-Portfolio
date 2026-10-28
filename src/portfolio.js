@@ -23,9 +23,9 @@ const greeting = {
   username: 'Rohan Zode',
   title: "Hi all, I'm Rohan",
   subTitle: emoji(
-    'A passionate Backend Developer 🚀 specializing in Python and Django REST Framework, with experience in building custom APIs and backend logic for scalable web applications.'
+    'A passionate QA Automation Engineer & SDET 🚀 with hands-on experience in automated and manual testing (Playwright, Selenium, PyTest), REST API validation (Postman, RestAssured), formal test case design, and defect tracking through resolution. Backed by a strong engineering foundation in Python, Django, and FastAPI, enabling deep architectural insight, thorough defect root-cause analysis, and robust quality engineering.'
   ),
-  resumeLink:'https://drive.google.com/file/d/1mQwi-U22ifV0-79sGu-XwBvTEapbsusS/view?usp=sharing', // Set to empty to hide the button
+  resumeLink: 'https://drive.google.com/file/d/1hZGTKvI6quyQdxrL-2auaR13-SmQv7A9/view?usp=drive_link', // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: 'https://github.com/rohanzode123',
   linkedin: 'https://www.linkedin.com/in/rohan-zode-230717238/',
-  gmail: 'rohanzode40@gmail.com',
+  gmail: 'rohanzode03@gmail.com',
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true, // Set true to display this section, defaults to false
@@ -44,16 +44,19 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: 'What I do',
-  subTitle: 'CRAZY BACKEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'QA AUTOMATION ENGINEER & SDET DELIVERING ROBUST, SCALABLE & RELIABLE SOFTWARE',
   skills: [
     emoji(
-      '⚡ Development of scalable and secure REST APIs using Django REST Framework'
+      '⚡ Automated end-to-end, functional, and regression testing using Playwright, Selenium, and PyTest for web applications & AI voice bots'
     ),
     emoji(
-      '⚡ Custom business logic implementation and backend workflows in Python'
+      '⚡ In-depth REST API validation, integration testing, and performance verification across microservices using Postman, RestAssured, FastAPI, and Django REST Framework'
     ),
     emoji(
-      '⚡ Efficient handling of databases, authentication, and background tasks with Celery & Redis'
+      '⚡ Data integrity and asynchronous flow validation across PostgreSQL databases, Redis caching, RabbitMQ message queues, and scheduled cron jobs'
+    ),
+    emoji(
+      '⚡ Formal test documentation, test plan & test case design, defect tracking through Jira, and Agile / Scrum sprint collaboration'
     ),
   ],
 
@@ -62,52 +65,68 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: 'Playwright',
+      fontAwesomeClassname: 'fas fa-robot',
+    },
+    {
+      skillName: 'Selenium',
+      fontAwesomeClassname: 'fas fa-vial',
+    },
+    {
+      skillName: 'PyTest',
+      fontAwesomeClassname: 'fas fa-check-circle',
+    },
+    {
       skillName: 'Python',
       fontAwesomeClassname: 'fab fa-python',
     },
     {
-      skillName: 'Django',
-      fontAwesomeClassname: 'fab fa-Django',
+      skillName: 'Postman',
+      fontAwesomeClassname: 'fas fa-paper-plane',
     },
     {
-      skillName: 'Django REST Framework',
-      fontAwesomeClassname: 'fab fa-django-rest-framework',
+      skillName: 'RestAssured',
+      fontAwesomeClassname: 'fas fa-exchange-alt',
+    },
+    {
+      skillName: 'Jira',
+      fontAwesomeClassname: 'fab fa-jira',
+    },
+    {
+      skillName: 'Scrum / Agile',
+      fontAwesomeClassname: 'fas fa-tasks',
+    },
+    {
+      skillName: 'PostgreSQL',
+      fontAwesomeClassname: 'fas fa-database',
     },
     {
       skillName: 'FastAPI',
-      fontAwesomeClassname: 'fab fa-fastapi',
+      fontAwesomeClassname: 'fas fa-bolt',
     },
     {
-      skillName: 'reactjs',
-      fontAwesomeClassname: 'fab fa-react',
+      skillName: 'Django',
+      fontAwesomeClassname: 'fab fa-python',
     },
     {
-      skillName: 'postgresql',
-      fontAwesomeClassname: 'fab fa-postgresql',
+      skillName: 'Redis & RabbitMQ',
+      fontAwesomeClassname: 'fas fa-network-wired',
     },
     {
-      skillName: 'mysql',
-      fontAwesomeClassname: 'fab fa-mysql',
-    },
-    {
-      skillName: 'celery',
-      fontAwesomeClassname: 'fab fa-celery',
-    },
-    {
-      skillName: 'rabbitmq',
-      fontAwesomeClassname: 'fas fa-rabbit',
-    },
-    {
-      skillName: 'aws',
+      skillName: 'AWS (EC2)',
       fontAwesomeClassname: 'fab fa-aws',
     },
     {
-      skillName: 'github',
+      skillName: 'Git & GitHub',
       fontAwesomeClassname: 'fab fa-github',
     },
     {
-      skillName: 'docker',
+      skillName: 'Docker',
       fontAwesomeClassname: 'fab fa-docker',
+    },
+    {
+      skillName: 'Linux & Multi-OS',
+      fontAwesomeClassname: 'fab fa-linux',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -119,45 +138,56 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: 'Yashwantrao Chavan College of Engineering',
+      schoolName: 'Yashwantrao Chavan University',
       logo: require('./assets/images/ycmou.png'),
-      subHeader: 'Graduate Degree in BSC',
-      duration: 'April 2020 - May 2023',
+      subHeader: 'Bachelor of Science – Physics, Chemistry, Mathematics (PCM)',
+      duration: 'Graduated: Jun 2023 | CGPA: 8.11',
+      desc: 'Focused on advanced mathematics, analytical reasoning, and scientific methodology, establishing strong problem-solving and algorithmic foundations.',
     },
     {
-      schoolName: 'Saint Paul High School Nagpur',
+      schoolName: 'St. Paul Jr. College, Nagpur',
       logo: require('./assets/images/saintpaul.jpeg'),
-      subHeader: 'Higher Secondary Certificate',
-      duration: 'Feb 2017 - Aug 2018',
+      subHeader: 'Higher Secondary Certificate (HSC)',
+      duration: '2018',
+      desc: 'Completed Higher Secondary Certificate with concentration in Science and Mathematics.',
     },
     {
-      schoolName: 'Devyanee International School Sindewahi',
+      schoolName: 'Devyanee International School',
       logo: require('./assets/images/devyani_logo.png'),
-      subHeader: 'Secondary School Certificate',
-      duration: 'Feb 2017 - Aug 2018',
+      subHeader: 'Secondary School Certificate (SSC)',
+      duration: '2016',
+      desc: 'Completed Secondary School Certificate with academic excellence.',
     },
   ],
 };
 
-// Your top 3 proficient stacks/tech experience
+// Your top proficient stacks/tech experience
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: 'Django', //Insert stack or technology you have experience in
-      progressPercentage: '90%', //Insert relative proficiency in percentage
+      Stack: 'Test Automation (Playwright, Selenium, PyTest)',
+      progressPercentage: '90%',
     },
     {
-      Stack: 'Python',
-      progressPercentage: '70%',
+      Stack: 'API Validation & Integration Testing (Postman, REST APIs)',
+      progressPercentage: '85%',
     },
     {
-      Stack: 'Frontent Development',
-      progressPercentage: '60%',
+      Stack: 'Python & Backend Foundations (Django, FastAPI, SQL)',
+      progressPercentage: '85%',
+    },
+    {
+      Stack: 'Test Management & QA Methodologies (Jira, Agile, Scrum)',
+      progressPercentage: '80%',
+    },
+    {
+      Stack: 'Cloud & Infrastructure Testing (AWS EC2, Redis, RabbitMQ)',
+      progressPercentage: '75%',
     },
   ],
-  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false, // Set true to display codersrank badges section
 };
 
 // Work experience section
@@ -166,25 +196,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Backend Developer',
-      company: 'Sumanela Technology Ventures Pvt. Ltd.',
+      role: 'QA Analyst',
+      company: 'Sumanel Technologies Pvt Ltd',
       companylogo: require('./assets/images/sumanel.png'),
       date: 'Dec 2024 – Present',
-      desc: 'Working as a Backend Developer, I develop and maintain RESTful APIs using Django and Python, manage PostgreSQL databases, and handle deployment and scaling on AWS instances.',
+      desc: 'Conducting comprehensive manual & automated QA testing, API validation, and microservices verification for enterprise and AI-powered production systems.',
+      descBullets: [
+        'Conducted unit and integration testing on REST APIs built with Django Rest Framework and FastAPI, verifying reliability and performance across microservices.',
+        'Validated data integrity and system behavior across PostgreSQL, Redis, and RabbitMQ integrations supporting caching and asynchronous message processing.',
+        'Tested and verified voice bot features, identifying functional issues across LLM, Speech-to-Text (STT), and Text-to-Speech (TTS) components.',
+        'Debugged and validated asynchronous Django cron jobs, confirming task execution correctness and system scalability post-fix.',
+      ],
     },
     {
-      role: 'Web Developer',
-      company: 'Octarange Technologies Pvt. Ltd.',
+      role: 'QA & Cloud Support Associate',
+      company: 'Octarange Technologies Pvt Ltd',
       companylogo: require('./assets/images/octa.png'),
       date: 'Jan 2024 – Jun 2024',
-      desc: 'As a Web Developer, I build and maintain interactive front-end interfaces and dynamic websites. I work with modern frameworks and tools to ensure responsive design, smooth user experience, and seamless integration with backend services.',
+      desc: 'Executed automated and manual test cases, created formal QA documentation, and managed AWS cloud instances.',
+      descBullets: [
+        'Executed manual and automated (Selenium) test cases for responsive web applications built with HTML5, CSS3, Python, and Bootstrap, identifying and reporting UI and usability defects.',
+        'Wrote and maintained formal test cases and test plans, validating application behavior across environments and tracking bugs through resolution and re-testing.',
+        'Managed AWS EC2 instances and security groups, troubleshooting application and deployment-related issues to support release stability.',
+      ],
     },
     {
       role: 'Cloud Intern',
       company: 'Cravita Technologies Pvt. Ltd.',
       companylogo: require('./assets/images/images.jpeg'),
       date: 'March 2023 – Aug 2023',
-      desc: 'As a Cloud Intern, I gained hands-on experience in cloud computing, working with AWS services to deploy and manage applications. I learned about cloud architecture, security, and best practices for scalable and reliable systems.',
+      desc: 'Gained hands-on experience in cloud infrastructure, AWS EC2, network security, and deployment verification for web applications.',
     },
   ],
 };
@@ -197,23 +238,75 @@ const openSource = {
   display: true, // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
+// Big projects you have worked on
 
 const bigProjects = {
-  title: 'Big Projects',
-  subtitle: 'SOME PROJECT THAT I HELPED TO CREATE THEIR TECH',
+  title: 'Featured Projects',
+  subtitle: 'PRODUCTION-GRADE QA AUTOMATION PLATFORMS & TESTING PROJECTS',
   projects: [
+    {
+      image: require('./assets/images/chatbotAutomation.svg'),
+      projectName: 'WEB CHAT BOT AUTOMATION PLATFORM',
+      projectDesc:
+        'Engineered an automated QA platform for testing web chatbots at scale: Reads Excel/CSV test suites for multi-turn flows, simulates human typing, buttons & date pickers via Playwright, performs dynamic intent matching powered by LLMs, and delivers real-time chat preview with failure screenshots and analytics reports.',
+      footerLink: [
+        {
+          name: 'Live Demo',
+          url: 'https://web-chat-bot-automation.onrender.com/',
+        },
+        {
+          name: 'GitHub Repo',
+          url: 'https://github.com/rohanzode123/Web-Chat-Bot-Automation',
+        },
+      ],
+    },
+    {
+      image: require('./assets/images/enterpriseChatbot.svg'),
+      projectName: 'ENTERPRISE CHATBOT SOLUTIONS (GLOBAL BRANDS)',
+      projectDesc:
+        'Contributed to development and QA validation of enterprise-grade AI chatbot integrations for global brands including Audi, ITC, Jeep, Hexa Health, Motilal Oswal, Autovista, TAFE, TVS HR, and CUTM. Rigorously tested multi-turn conversational flows, verified voice bot STT/TTS pipelines, and validated high reliability for millions of end users.',
+      footerLink: [
+        {
+          name: 'Global QA Solutions',
+          url: 'https://github.com/rohanzode123',
+        },
+      ],
+    },
+    {
+      image: require('./assets/images/crossDeviceTesting.svg'),
+      projectName: 'BATTERY WEB PLATFORM – CROSS-DEVICE QA',
+      projectDesc:
+        'Performed comprehensive functional, cross-browser, and cross-device testing of an informational website built with HTML5, CSS3, and JavaScript. Verified responsive design, viewport compatibility across mobile, tablet, and desktop devices, and ensured flawless UI consistency.',
+      footerLink: [
+        {
+          name: 'Cross-Device QA',
+          url: 'https://github.com/rohanzode123',
+        },
+      ],
+    },
+    {
+      image: require('./assets/images/apiTesting.svg'),
+      projectName: 'TODO APP – REST API & DATABASE INTEGRATION QA',
+      projectDesc:
+        'Wrote comprehensive formal test cases and performed functional and regression testing for a Django-based task management application. Validated REST API endpoints, authentication flows, error handling, and database integration for data persistence.',
+      footerLink: [
+        {
+          name: 'API & Integration QA',
+          url: 'https://github.com/rohanzode123',
+        },
+      ],
+    },
     {
       image: require('./assets/images/ecommerce.jpg'),
       projectName: 'E-COMMERCE WEB APPLICATION',
       projectDesc:
-        'Developed a dynamic web-based application using Python, Django, HTML, CSS, and Javascript to create a comprehensive shopping platform for the company products.',
-    },
-    {
-      image: require('./assets/images/eproductifyy.png'),
-      projectName: 'EPRODUCTIFY',
-      projectDesc:
-        'Eproductify is a web app for selling digital brochures, built using Python, HTML, CSS, and JavaScript. It features a responsive UI, brochure listings, and a secure billing system to handle purchases.',
+        'Full-stack development and end-to-end testing of a comprehensive shopping platform using Python, Django, HTML, CSS, and JavaScript. Tested product catalog navigation, shopping cart logic, authentication, and order workflows.',
+      footerLink: [
+        {
+          name: 'GitHub',
+          url: 'https://github.com/rohanzode123',
+        },
+      ],
     },
   ],
   display: true,
@@ -224,45 +317,44 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji('Achievements And Certifications 🏆 '),
-  subtitle: 'Achievements, Certifications,that I have done !',
+  subtitle: 'Professional Certifications & Cloud Credentials',
 
   achievementsCards: [
     {
       title: 'AWS Certified Cloud Practitioner',
       subtitle:
-        'Achieved AWS Certified Cloud Practitioner credential, validating my foundational knowledge of AWS services, cloud concepts, security, and billing practices.',
+        'Achieved AWS Certified Cloud Practitioner credential, validating foundational knowledge of AWS cloud infrastructure, security, architecture, and billing practices.',
       image: require('./assets/images/cloudpractioner.png'),
       imageAlt: 'AWS Certified Cloud Practitioner Logo',
       footerLink: [
         {
-          name: 'AWS Certified Cloud Practitioner',
+          name: 'Credential Verification',
           url: 'https://www.credly.com/badges/3e102b55-b195-4083-9117-e0a0e967753e/public_url',
         },
       ],
     },
     {
-      title: 'AWS Certified Solution Architect Associate',
+      title: 'AWS Certified Solutions Architect – Associate',
       subtitle:
-        'Achieved AWS Certified Solutions Architect  Associate certification, demonstrating my ability to design and deploy scalable, secure, and cost-efficient applications on AWS.',
+        'Achieved AWS Certified Solutions Architect – Associate certification, demonstrating proficiency in designing and validating scalable, highly available, secure, and cost-efficient cloud architectures on AWS.',
       image: require('./assets/images/solutionarchitect.png'),
       imageAlt: 'AWS Certified Solutions Architect Associate Logo',
       footerLink: [
         {
-          name: 'AWS Certified Solution Architect Associate',
+          name: 'Credential Verification',
           url: 'https://www.credly.com/badges/6fbba942-e0b0-4a92-9a2b-af52bfbb6581/public_url',
         },
       ],
     },
-
     {
-      title: 'AWS Academy Graduate - AWS Academy Cloud Architecting',
+      title: 'AWS Academy Graduate – Cloud Architecting',
       subtitle:
-        'Completed AWS Academy Cloud Architecting course, gaining hands-on experience in designing cloud solutions using core AWS services and architectural best practices.',
+        'Completed AWS Academy Cloud Architecting course, gaining hands-on expertise in designing cloud solutions using core AWS services and architectural best practices.',
       image: require('./assets/images/awsgradutate.png'),
-      imageAlt: 'AWS Academy Graduate - AWS Academy Cloud Architecting Logo',
+      imageAlt: 'AWS Academy Graduate Logo',
       footerLink: [
         {
-          name: 'AWS Academy Cloud Architecting',
+          name: 'Credential Verification',
           url: 'https://www.credly.com/badges/79a9a568-f7ff-4507-b820-62b671bd5d0b/public_url',
         },
       ],
@@ -271,53 +363,47 @@ const achievementSection = {
   display: true, // Set false to hide this section, defaults to true
 };
 
-
-
-
 const contactInfo = {
   title: emoji('Contact Me ☎️'),
+  subtitle:
+    'Discuss a QA Automation project, QA engineering opportunity, or just want to connect? My inbox is open for all!',
   number: '📞 +91 9370569860',
-  email_address: '📬 rohanzode40@gmail.com',
+  email_address: '📬 rohanzode03@gmail.com',
 };
 
 const blogSection = {
-  title: "My Blog",
-  posts: [
-    { title: "Post 1", link: "https://..." },
-    { title: "Post 2", link: "https://..." },
-  ],
+  title: 'My Blog',
+  display: false,
+  posts: [],
 };
 
 const podcastSection = {
-  title: "My Podcast",
+  title: 'My Podcast',
+  display: false,
   episodes: [],
 };
 
-
-
 // Talk Section
 const talkSection = {
-  title: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91 9370569860",
-  email_address: "rohanzode40@gmail.com",
+  title: 'Discuss a project or just want to say hi? My Inbox is open for all.',
+  number: '+91 9370569860',
+  email_address: 'rohanzode03@gmail.com',
+  display: false,
 };
 
 // Twitter Section
-
 const twitterDetails = {
-  userName: 'Twitter', //Replace "twitter" with your twitter username without @
-  display: false, // Set true to display this section, defaults to false
+  userName: 'Twitter',
+  display: false,
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
-
+const isHireable = true; // Set true for open opportunities
 
 const resumeSection = {
-  title: "My Resume",
-  link: "https://drive.google.com/file/d/1hZGTKvI6quyQdxrL-2auaR13-SmQv7A9/view?usp=drive_link", // or leave empty for now
+  title: 'My Resume',
+  link: 'https://drive.google.com/file/d/1hZGTKvI6quyQdxrL-2auaR13-SmQv7A9/view?usp=drive_link',
+  display: true,
 };
-
-
 
 export {
   illustration,
@@ -333,7 +419,7 @@ export {
   achievementSection,
   contactInfo,
   isHireable,
-  blogSection, 
+  blogSection,
   podcastSection,
   talkSection,
   resumeSection,

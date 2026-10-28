@@ -1,0 +1,49 @@
+{
+  "data": {
+    "user": {
+      "name": "Rohan Zode",
+      "bio": "QA Automation Engineer & SDET | Playwright, Selenium, PyTest, REST API Testing, Python & Cloud Infrastructure",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/155560252?v=4",
+      "location": "Pune, India",
+      "pinnedItems": {
+        "totalCount": 2,
+        "edges": [
+          {
+            "node": {
+              "id": "R_kgDOVZfhDw",
+              "name": "Web-Chat-Bot-Automation",
+              "description": "Automated QA platform for testing web chatbots at scale: Reads Excel/CSV test suites for multi-turn flows, simulates human typing & interactions via Playwright, dynamic LLM intent matching, real-time chat preview with failure screenshots & analytics.",
+              "forkCount": 0,
+              "stargazers": {
+                "totalCount": 0
+              },
+              "url": "https://github.com/rohanzode123/Web-Chat-Bot-Automation",
+              "diskUsage": 4271,
+              "primaryLanguage": {
+                "name": "Python",
+                "color": "#3572A5"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "R_kgDOPortfolio01",
+              "name": "New-Portfolio",
+              "description": "Personal portfolio website engineered with React, showcasing QA Automation experience, test automation frameworks, API validation, and full-stack software development skills.",
+              "forkCount": 0,
+              "stargazers": {
+                "totalCount": 0
+              },
+              "url": "https://github.com/rohanzode123/New-Portfolio",
+              "diskUsage": 3200,
+              "primaryLanguage": {
+                "name": "JavaScript",
+                "color": "#f1e05a"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

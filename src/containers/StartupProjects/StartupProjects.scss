@@ -80,6 +80,12 @@
   padding: 0 0.75em;
   cursor: pointer;
   transition: 0.2s ease-in;
+
+  &:hover {
+    background: $buttonHover;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
 }
 
 @media (max-width: 768px) {

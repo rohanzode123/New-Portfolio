@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <filter id="shadow3" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="500" height="350" rx="20" fill="url(#bgGrad3)" />
+
+  <g filter="url(#shadow3)">
+    <!-- Desktop Monitor Frame -->
+    <rect x="70" y="45" width="230" height="150" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="2"/>
+    <rect x="80" y="55" width="210" height="120" rx="4" fill="#022c22"/>
+    <!-- Desktop content lines -->
+    <rect x="90" y="65" width="80" height="10" rx="2" fill="#10b981"/>
+    <rect x="90" y="85" width="120" height="6" rx="2" fill="#34d399"/>
+    <rect x="90" y="97" width="100" height="6" rx="2" fill="#6ee7b7"/>
+    <rect x="90" y="115" width="45" height="40" rx="4" fill="#065f46" stroke="#10b981" stroke-width="1"/>
+    <text x="112" y="140" fill="#fff" font-size="16" text-anchor="middle">🔋</text>
+    <rect x="145" y="115" width="130" height="10" rx="2" fill="#34d399"/>
+    <rect x="145" y="130" width="110" height="6" rx="2" fill="#a7f3d0"/>
+    <rect x="145" y="142" width="85" height="6" rx="2" fill="#a7f3d0"/>
+    <!-- Monitor stand -->
+    <path d="M165 195 L155 220 L215 220 L205 195 Z" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
+    <rect x="140" y="220" width="90" height="6" rx="3" fill="#10b981"/>
+
+    <!-- Tablet Frame -->
+    <rect x="250" y="95" width="120" height="150" rx="10" fill="#0f172a" stroke="#34d399" stroke-width="2"/>
+    <rect x="260" y="105" width="100" height="125" rx="4" fill="#022c22"/>
+    <circle cx="310" cy="237" r="4" fill="#34d399"/>
+    <rect x="270" y="115" width="80" height="8" rx="2" fill="#10b981"/>
+    <rect x="270" y="130" width="60" height="6" rx="2" fill="#6ee7b7"/>
+    <rect x="270" y="145" width="70" height="25" rx="3" fill="#065f46"/>
+    <text x="305" y="162" fill="#fff" font-size="12" text-anchor="middle">⚡</text>
+
+    <!-- Smartphone Frame -->
+    <rect x="350" y="125" width="85" height="145" rx="12" fill="#0f172a" stroke="#6ee7b7" stroke-width="2"/>
+    <rect x="358" y="135" width="69" height="115" rx="4" fill="#022c22"/>
+    <circle cx="392" cy="140" r="2" fill="#6ee7b7"/>
+    <circle cx="392" cy="244" r="4" fill="#6ee7b7"/>
+    <rect x="366" y="150" width="53" height="6" rx="2" fill="#10b981"/>
+    <rect x="366" y="162" width="45" height="4" rx="2" fill="#a7f3d0"/>
+    <rect x="366" y="172" width="53" height="30" rx="3" fill="#065f46"/>
+    <text x="392" y="192" fill="#fff" font-size="12" text-anchor="middle">📱</text>
+
+    <!-- Badge / Status Bar at bottom -->
+    <rect x="50" y="270" width="400" height="45" rx="10" fill="#022c22" stroke="#10b981" stroke-width="1.5"/>
+    <circle cx="80" cy="292" r="10" fill="#10b981"/>
+    <path d="M76 292 l3 3 l6 -6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <text x="100" y="296" fill="#f0fdf4" font-family="system-ui, sans-serif" font-size="12" font-weight="700">Cross-Device &amp; Cross-Browser Testing Verified</text>
+    <text x="420" y="296" fill="#34d399" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" text-anchor="end">100% Responsive</text>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#27272a" />
+    </linearGradient>
+    <linearGradient id="apiGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+    <filter id="shadow4" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="500" height="350" rx="20" fill="url(#bgGrad4)" />
+
+  <g filter="url(#shadow4)">
+    <!-- Terminal / Postman-like Card -->
+    <rect x="50" y="35" width="400" height="275" rx="14" fill="#09090b" stroke="#f97316" stroke-width="1.5"/>
+
+    <!-- Terminal Header -->
+    <rect x="50" y="35" width="400" height="40" rx="14" fill="#27272a"/>
+    <rect x="50" y="65" width="400" height="10" fill="#27272a"/>
+    <circle cx="75" cy="55" r="5" fill="#ef4444"/>
+    <circle cx="92" cy="55" r="5" fill="#eab308"/>
+    <circle cx="109" cy="55" r="5" fill="#22c55e"/>
+    <text x="250" y="60" fill="#fafafa" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">⚡ Django REST API &amp; Database QA Suite</text>
+
+    <!-- Request Row 1 (GET) -->
+    <g transform="translate(70, 90)">
+      <rect x="0" y="0" width="45" height="22" rx="4" fill="#0284c7"/>
+      <text x="22" y="15" fill="#fff" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">GET</text>
+      <text x="55" y="15" fill="#e4e4e7" font-family="monospace" font-size="11">/api/v1/tasks/?status=pending</text>
+      <rect x="290" y="0" width="65" height="22" rx="4" fill="#052e16" stroke="#22c55e" stroke-width="1"/>
+      <text x="322" y="15" fill="#4ade80" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">200 OK</text>
+    </g>
+
+    <!-- Request Row 2 (POST) -->
+    <g transform="translate(70, 122)">
+      <rect x="0" y="0" width="45" height="22" rx="4" fill="#16a34a"/>
+      <text x="22" y="15" fill="#fff" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">POST</text>
+      <text x="55" y="15" fill="#e4e4e7" font-family="monospace" font-size="11">/api/v1/tasks/create/</text>
+      <rect x="290" y="0" width="65" height="22" rx="4" fill="#052e16" stroke="#22c55e" stroke-width="1"/>
+      <text x="322" y="15" fill="#4ade80" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">201 CRE</text>
+    </g>
+
+    <!-- JSON Payload / Assertions Window -->
+    <g transform="translate(70, 156)">
+      <rect x="0" y="0" width="360" height="85" rx="6" fill="#18181b" stroke="#3f3f46" stroke-width="1"/>
+      <text x="15" y="20" fill="#a1a1aa" font-family="monospace" font-size="10">// PyTest API Assertion Block</text>
+      <text x="15" y="38" fill="#fb923c" font-family="monospace" font-size="10">assert response.status_code == 201</text>
+      <text x="15" y="55" fill="#38bdf8" font-family="monospace" font-size="10">assert task["title"] == "QA Automation Flow"</text>
+      <text x="15" y="72" fill="#4ade80" font-family="monospace" font-size="10">✓ Database persistence verified in PostgreSQL</text>
+    </g>
+
+    <!-- Bottom Features Strip -->
+    <g transform="translate(70, 256)">
+      <rect x="0" y="0" width="110" height="26" rx="6" fill="#ea580c"/>
+      <text x="55" y="17" fill="#fff" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">PyTest &amp; Postman</text>
+
+      <rect x="120" y="0" width="110" height="26" rx="6" fill="#ea580c"/>
+      <text x="175" y="17" fill="#fff" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">PostgreSQL Validation</text>
+
+      <rect x="240" y="0" width="120" height="26" rx="6" fill="#ea580c"/>
+      <text x="300" y="17" fill="#fff" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">CRUD &amp; Auth Testing</text>
+    </g>
+  </g>
+</svg>
